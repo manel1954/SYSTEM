@@ -22,5 +22,5 @@ sudo chmod 777 -R /home/pi/Desktop
 
 sudo cp /home/pi/icons.screen0-1904x1017.rc /home/pi/.config/xfce4/desktop
 sudo chmod 777 -R /home/pi/.config/xfce4/desktop
-xterm -geometry 85x6+653+136 -bg black -fg white -fa ‘verdana’ -fs 9x -T COLOCANDO_ICONOS -e xfdesktop --reload
+xterm -geometry 87x6+653+136 -bg black -fg white -fa ‘verdana’ -fs 9x -T COLOCANDO_ICONOS -e xfdesktop --reload
                              
