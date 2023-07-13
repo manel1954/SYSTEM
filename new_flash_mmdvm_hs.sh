@@ -52,7 +52,7 @@ clear
                         cd MMDVM_HS/
                         git submodule init
                         git submodule update
-                        cp /home/pi/PI-ADER/Config.h /home/pi/MMDVM_HS/
+                        cp /home/pi/SYSTEM/Config.h /home/pi/MMDVM_HS/
                         clear
 echo "${VERDE}"
 echo "   ******************************************"

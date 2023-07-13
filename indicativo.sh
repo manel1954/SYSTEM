@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/pi/PI-ADER/; sudo ./qt_indicativo
+cd /home/pi/SYSTEM/; sudo ./qt_indicativo

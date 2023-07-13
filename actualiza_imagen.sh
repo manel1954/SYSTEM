@@ -10,11 +10,11 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
                         clear
                         echo "${GRIS}"
-                        cd /home/pi/PI-ADER   
+                        cd /home/pi/SYSTEM   
                         xterm -geometry 87x6+652+138 -bg black -fg white -fa ‘verdana’ -fs 9x -T ACTUALIZANDO -e git pull                                      
-                        sh /home/pi/PI-ADER/ejecutar_ImagenActualizada.sh &
-                        mv qt_* /home/pi/PI-ADER/qt
-                        chmod 777 -R /home/pi/PI-ADER/qt
+                        sh /home/pi/SYSTEM/ejecutar_ImagenActualizada.sh &
+                        mv qt_* /home/pi/SYSTEM/qt
+                        chmod 777 -R /home/pi/SYSTEM/qt
 
 
 

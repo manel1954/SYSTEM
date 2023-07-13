@@ -180,9 +180,9 @@ sudo cp -f /opt/HBmonitor/index_template.html /home/pi/.local/COPIA_SEGURIDAD/Do
 sudo cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 cd /home/pi/.local/COPIA_SEGURIDAD
-tar -zcvf Copia_PI-ADER.zip Downloads
-cp  Copia_PI-ADER.zip /var/www/html/upload/files
-sudo Copia_PI-ADER.zip
+tar -zcvf Copia_SYSTEM.zip Downloads
+cp  Copia_SYSTEM.zip /var/www/html/upload/files
+sudo Copia_SYSTEM.zip
 
 
 

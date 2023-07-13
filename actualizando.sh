@@ -1,4 +1,4 @@
 #!/bin/bash                       
 
-                        cd /home/pi/PI-ADER
+                        cd /home/pi/SYSTEM
                         mono ImagenActualizada.exe
