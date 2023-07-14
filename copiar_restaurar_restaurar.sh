@@ -8,7 +8,7 @@
         #tar -xvzf Copia_SYSTEM.zip
 #
         #sudo rm Copia_SYSTEM.zip
-        #echo "\33[1;32m" #color verde   
+        #echo "\33[1;32m" #color verde    
         #echo "***************************************************"
         #echo "* ESTAS RESTAURANDO UNA COPIA DE LA MISMA VERSIÓN *"
         #echo "*      DEL MMDVMHOST QUE TIENES ACTUALIZADO       *"
@@ -92,28 +92,14 @@
 
             cp -f ambe_server.ini  /home/pi/.local/
             
-            cp ircddbgateway /usr/local/etc/opendv/
-            cp dstarrepeater /usr/local/etc/opendv/
+            cp ircddbgateway /etc/
 
             cp info_panel_control.ini /home/pi/
 
             cp -f MMDVMDMRGateway.ini /home/pi/MMDVMHost/
             cp -f DMRGateway.ini /home/pi/DMRGateway/
 
-            cp -f MMDVMDMR2M17.ini /home/pi/MMDVMHost/
-            cp -f DMR2M17.ini /home/pi/DMR2M17/
-
 cp -f info.ini /home/pi/
-
-cp -f regla2 /home/pi/.local/
-cp -f regla3 /home/pi/.local/
-cp -f regla4 /home/pi/.local/
-cp -f regla5 /home/pi/.local/
-cp -f regla6 /home/pi/.local/
-cp -f regla7 /home/pi/.local/
-cp -f regla8 /home/pi/.local/
-cp -f regla9 /home/pi/.local/
-cp -f reglaxlx /home/pi/.local/
 
 # Restaura todos los datos de Dvswitch
 indicativo=$(awk "NR==1" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)          
@@ -226,12 +212,5 @@ sudo sed -i "74c $selfcare" /opt/MMDVM_Bridge/MMDVM_Bridge.ini
 
 reflector_dstar=$(awk "NR==15" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)
 sudo sed -i "18c $reflector_dstar" /etc/ircddbgateway
-
-sudo cp -f hblink.cfg /opt/HBlink3/
-sudo cp -f rules.py /opt/HBlink3/
-sudo cp -f config.py /opt/HBmonitor/
-
-sudo cp -f monitor.py /opt/HBmonitor/
-sudo cp -f index_template.html /opt/HBmonitor/
 
 sudo cp -f info.ini /home/pi/
