@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Rcolocar Iconos
+Name=Rcolocar ICONOS
 Exec=sh -c 'cd /home/pi/SYSTEM; sh colocar_iconos.sh'
 Comment=Rcolocar iconos
 Icon=/home/pi/SYSTEM/ICO_ORGANIZAR_ICONOS.png
