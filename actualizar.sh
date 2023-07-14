@@ -28,7 +28,7 @@ usuario="/home/pi"
 usuario="$usuario"
 SCRIPTS_version="SYSTEM"
 actualizacion=$(awk "NR==2" /home/pi/version-fecha-actualizacion)
-version="SYSTEM_"
+version="SYST_"
 version=$version$actualizacion
 
 #pone todos los status de inicio en OFF
