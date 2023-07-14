@@ -85,8 +85,7 @@ clear
 
             cp -f /home/pi/.local/ambe_server.ini  /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            cp /usr/local/etc/opendv/ircddbgateway /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp /usr/local/etc/opendv/dstarrepeater /home/pi/.local/COPIA_SEGURIDAD/Downloads
+            cp /etc/ircddbgateway /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cd /home/pi
             cp info_panel_control.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
@@ -94,20 +93,7 @@ clear
             cp -f /home/pi/MMDVMHost/MMDVMDMRGateway.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f /home/pi/DMRGateway/DMRGateway.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-            cp -f /home/pi/MMDVMHost/MMDVMDMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f /home/pi/DMR2M17/DMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-
 cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-
-cp -f /home/pi/.local/regla2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla4 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla5 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla6 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla7 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla8 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/regla9 /home/pi/.local/COPIA_SEGURIDAD/Downloads
-cp -f /home/pi/.local/reglaxlx /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
 indicativo=$(awk "NR==2" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 indicativo=`expr substr $indicativo 10 6`
@@ -170,18 +156,8 @@ sed -i "13c $sala_nxdn" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "14c $selfcare" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 sed -i "15c $reflector_dstar" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch
 
-sudo cp -f /opt/HBlink3/hblink.cfg /home/pi/.local/COPIA_SEGURIDAD/Downloads
-sudo cp -f /opt/HBlink3/rules.py /home/pi/.local/COPIA_SEGURIDAD/Downloads
-sudo cp -f /opt/HBmonitor/config.py /home/pi/.local/COPIA_SEGURIDAD/Downloads
-
-sudo cp -f /opt/HBmonitor/monitor.py /home/pi/.local/COPIA_SEGURIDAD/Downloads
-sudo cp -f /opt/HBmonitor/index_template.html /home/pi/.local/COPIA_SEGURIDAD/Downloads
-
 sudo cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
-#sudo chmod 777 -R /home/pi/.local/COPIA_SEGURIDAD
-
-# ESTAS LINEAS ESTAN EN CREAR COPIA DESDE LA WEB
 #cd /home/pi/.local/COPIA_SEGURIDAD
 #tar -zcvf Copia_SYSTEM.zip Downloads
 #cp  Copia_SYSTEM.zip /var/www/html/upload/files
