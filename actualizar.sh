@@ -244,6 +244,7 @@ sleep 2
 sudo rm /home/pi/SYSTEM/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data
 
+#comprueba los paneles si estan activo o no
 panelbm=$(awk "NR==1" /home/pi/paneles_activos.ini)
 if [ "$panelbm" = 'BM=OFF' ];then
 cd /home/pi/SYSTEM/qt/
