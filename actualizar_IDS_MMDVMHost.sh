@@ -10,9 +10,9 @@ MARRON="\33[38;5;138m"
 NEGRO="\33[0;30m"
 clear
 echo -n "${NEGRO}"
-#echo ""
+echo ""
 
-#echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
+echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
 
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
 
