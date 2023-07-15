@@ -1,4 +1,10 @@
 ﻿#!/bin/bash
+
+                        cd /home/pi/SYSTEM/qt/
+                        ./qt_actualizando_imagen
+
+
+
 #Colores
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
