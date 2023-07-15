@@ -15,14 +15,17 @@
 #echo "***********************************************************"
 
 
-                           cd /home/pi/SYSTEM/qt/
-                        ./qt_colocar_iconos
 
 
 
 
 cd /home/pi/Desktop
 sudo rm *.desktop
+
+
+
+                           cd /home/pi/SYSTEM/qt/
+                        ./qt_colocar_iconos
 # recupera los iconos que se han borrado y se han convertido en icono de un libro 
 # pero no quita los semaforos que se queden encendidos por error al reiniciar
 cp /home/pi/SYSTEM/Desktop/*.desktop /home/pi/Desktop
