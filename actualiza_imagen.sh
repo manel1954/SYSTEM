@@ -11,10 +11,9 @@ MARRON="\33[38;5;138m"
                         clear
                         echo "${GRIS}"
                         cd /home/pi/SYSTEM   
-                        git pull  
+                        xterm -geometry 87x6+652+138 -bg black -fg white -fa ‘verdana’ -fs 9x -T ACTUALIZANDO -e git pull                                      
                         cd /home/pi/SYSTEM/qt/
-                        ./qt_actualizando_imagen                                    
-                        #sh /home/pi/SYSTEM/ejecutar_ImagenActualizada.sh &
+                        ./qt_actualizando_imagen
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/qt
 
