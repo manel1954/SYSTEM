@@ -9,6 +9,7 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 NEGRO="\33[0;30m"
 clear
+echo -n "${NEGRO}"
 echo ""
 echo -n "${AMARILLO}"
 echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
