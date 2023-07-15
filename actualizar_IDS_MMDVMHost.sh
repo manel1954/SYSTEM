@@ -11,7 +11,8 @@ NEGRO="\33[0;30m"
 clear
 
 
-
+                        cd /home/pi/SYSTEM/qt/
+                        ./qt_actualizando_imagen
 
 
 
@@ -21,8 +22,7 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
 echo -n "${NEGRO}"
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
 
-                        cd /home/pi/SYSTEM/qt/
-                        ./qt_actualizando_imagen &
+
 
 #var=`grep -n -m 1 '\<DMRIDPATH\>' /home/pi/MMDVMHost/linux/DMRIDUpdate.sh`
 #buscar=":"
