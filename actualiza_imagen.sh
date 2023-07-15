@@ -21,8 +21,7 @@ MARRON="\33[38;5;138m"
                         
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_imagen
-                        mv qt_* /home/pi/SYSTEM/qt
-                        chmod 777 -R /home/pi/SYSTEM/qt
+
 
 
 
