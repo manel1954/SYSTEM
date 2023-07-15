@@ -9,13 +9,6 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 NEGRO="\33[0;30m"
 clear
-
-
-                        cd /home/pi/SYSTEM/qt/
-                        ./qt_actualizando_imagen
-
-
-
 echo ""
 echo -n "${AMARILLO}"
 echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
@@ -58,4 +51,5 @@ echo -n "${NEGRO}"
 
                         cp DMRIds.dat /home/pi/YSF2DMR/
 
-
+                        cd /home/pi/SYSTEM/qt/
+                        ./qt_actualizando_imagen
