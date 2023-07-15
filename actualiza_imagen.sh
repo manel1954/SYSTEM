@@ -11,7 +11,7 @@ MARRON="\33[38;5;138m"
                         clear
                         echo "${GRIS}"
                         cd /home/pi/SYSTEM   
-                        xterm -geometry 85x6+652+138 -bg black -fg white -fa ‘verdana’ -fs 9x -T ACTUALIZANDO -e git pull                                                              
+                        git pull                                                              
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/qt
                        
