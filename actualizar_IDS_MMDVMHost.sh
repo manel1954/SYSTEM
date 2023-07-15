@@ -41,7 +41,7 @@ echo -n "${VERDE}"
 
                         # 14-08-2020 cambio actualizar para que salgan los indicativos en DVSWITCH:
                         cd /home/pi/MMDVMHost
-                        #sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
+                        sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
 
                         sudo chmod 777 -R /var/lib/mmdvm
 
