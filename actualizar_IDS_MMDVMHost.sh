@@ -37,7 +37,7 @@ echo "${NEGRO}"
 #linea_sed=$numero_linea$letrac
 #sed -i "$linea_sed DATABASEURL='https://ham-digital.org/status/users.csv'" /home/pi/MMDVMHost/linux/DMRIDUpdate.sh
 
-sudo sh /home/pi/MMDVMHost/linux/DMRIDUpdateBM.sh
+#sudo sh /home/pi/MMDVMHost/linux/DMRIDUpdate.sh
 
 
                         # 14-08-2020 cambio actualizar para que salgan los indicativos en DVSWITCH:
@@ -46,7 +46,8 @@ sudo sh /home/pi/MMDVMHost/linux/DMRIDUpdateBM.sh
                         sudo chmod 777 -R /var/lib/mmdvm
 
                         cp DMRIds.dat /home/pi/DMR2YSF/
-                        #sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
+
+                        cp DMRIds.dat /home/pi/MMDVMHost/
 
                         cp DMRIds.dat /home/pi/YSF2DMR/
 
