@@ -14,10 +14,9 @@ echo -n "${AMARILLO}"
 echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
 echo -n "${VERDE}"
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
-sleep 13
-cd /home/pi/SYSTEM/qt/
-./qt_actualizando_imagen
-echo "${NEGRO}"
+
+
+
 #var=`grep -n -m 1 '\<DMRIDPATH\>' /home/pi/MMDVMHost/linux/DMRIDUpdate.sh`
 #buscar=":"
 #largo_linea=`expr index $var $buscar`
@@ -41,8 +40,10 @@ echo "${NEGRO}"
 
 
                         # 14-08-2020 cambio actualizar para que salgan los indicativos en DVSWITCH:
-                        cd /var/lib/mmdvm
+                        cd /home/pi/MMDVMHost
+                        #sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
                         sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
+
                         sudo chmod 777 -R /var/lib/mmdvm
 
                         cp DMRIds.dat /home/pi/DMR2YSF/
