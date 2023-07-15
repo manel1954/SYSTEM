@@ -12,7 +12,8 @@ MARRON="\33[38;5;138m"
                         echo "${GRIS}"
                         cd /home/pi/SYSTEM   
                         git pull  
-                        /home/pi/SYSTEM/qt/ ./qt_actualizando_imagen                                    
+                        cd /home/pi/SYSTEM/qt/
+                        ./qt_actualizando_imagen                                    
                         #sh /home/pi/SYSTEM/ejecutar_ImagenActualizada.sh &
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/qt
