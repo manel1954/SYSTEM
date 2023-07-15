@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c 'cd /home/pi/SYSTEM/;xterm -geometry 85x6+652+138 -bg black -fg white -fa ‘verdana’ -fs 9x -T ACTUALIZANDO_IDS -e sudo sh actualizar_IDS_MMDVMHost.sh'
+Exec=sh -c 'cd /home/pi/SYSTEM/; sudo sh actualizar_IDS_MMDVMHost.sh'
 Icon=/home/pi/SYSTEM/ICO_ACTUALIZAR_IDS.png
 Type=Application
 StartupNotify=false
