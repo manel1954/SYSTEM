@@ -25,4 +25,4 @@ sudo chmod 777 -R /home/pi/.config/xfce4/desktop
 xfdesktop --reload
 
                            cd /home/pi/SYSTEM/qt/
-                        ./qt_actualizando_ids                         
+                        ./qt_colocar_iconos                         
