@@ -11,7 +11,7 @@ NEGRO="\33[0;30m"
 clear
 echo ""
 echo -n "${AMARILLO}"
-echo "    **-ACTUALIZANDO IDS INDICATIVOS-**"
+echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
 echo -n "${VERDE}"
 #echo "ACTUALIZANDO DMRIds.dat para DVSWITCH"
 sleep 13
@@ -49,3 +49,6 @@ sudo sh /home/pi/MMDVMHost/linux/DMRIDUpdate.sh
                         #sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
 
                         cp DMRIds.dat /home/pi/YSF2DMR/
+
+                        cd /home/pi/SYSTEM/qt/
+                        ./qt_actualizando_imagen
