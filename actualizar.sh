@@ -127,20 +127,20 @@ linea_YSFGateway=`expr substr $master 1 $largo1`
 masterYSFGateway=$(awk "NR==$linea_YSFGateway" $usuario/YSFClients/YSFGateway/YSFGateway.ini)
 masterYSFGateway=`echo "$masterYSFGateway" | tr -d '[[:space:]]'`
 #ACTUALIZA EL  PANEL DE CONTROL"
-sudo echo 20 > /sys/class/gpio/export
-sudo echo 21 > /sys/class/gpio/export
+sudo echo 12 > /sys/class/gpio/export
+sudo echo 16 > /sys/class/gpio/export
 sudo echo out > /sys/class/gpio/gpio20/direction
 sudo echo out > /sys/class/gpio/gpio21/direction
-sudo sleep 2
+sudo sleep 1
 sudo echo 0 > /sys/class/gpio/gpio20/value
 sudo echo 0 > /sys/class/gpio/gpio21/value
 sudo echo 1 > /sys/class/gpio/gpio21/value
-sudo sleep 2
+sudo sleep 1
 sudo echo 0 > /sys/class/gpio/gpio20/value
 sudo echo 1 > /sys/class/gpio/gpio20/value
-sudo sleep 2
-sudo echo 20 > /sys/class/gpio/unexport
-sudo echo 21 > /sys/class/gpio/unexport
+sudo sleep 1
+sudo echo 12 > /sys/class/gpio/unexport
+sudo echo 16 > /sys/class/gpio/unexport
 bm=`sed -n '2p'  $usuario/MMDVMHost/MMDVMBM.ini`
 plus=`sed -n '2p'  $usuario/MMDVMHost/MMDVMPLUS.ini`
 dstar=`sed -n '2p'  $usuario/MMDVMHost/MMDVMDSTAR.ini`
