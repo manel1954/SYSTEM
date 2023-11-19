@@ -43,7 +43,7 @@ echo "                       ewqeqeqe**-ACTUALIZANDO IDS INDICATIVOS-**"
                         # 14-08-2020 cambio actualizar para que salgan los indicativos en DVSWITCH:
                         cd /home/pi/MMDVMHost
                         sudo rm DMRIds.dat
-                        
+                        read a
                         sudo curl --fail -o DMRIds.dat -s http://www.pistar.uk/downloads/DMRIds.dat
 
                         cp DMRIds.dat /home/pi/DMR2YSF/
