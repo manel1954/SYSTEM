@@ -20,9 +20,9 @@ echo "            ********************************************************"
                 
 cd $usuario/NXDNClients/NXDNGateway/
 rm -R private
-mkdir private
+sudo mkdir private
 cd $usuario/$SCRIPTS_version
-cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway/private
+sudo cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway/private
 cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway                            
 sleep 2
 clear  
