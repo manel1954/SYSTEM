@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 clear
 usuario=$(awk "NR==1" /home/pi/.config/autostart/usuario)
-SCRIPTS_version=$(awk "NR==1" $usuario/.config/autostart/version)                                                                       
+SCRIPTS_version=$(awk "NR==3" $usuario/version-fecha-actualizacion)                                                                       
 #Colores 
 ROJO="\033[1;31m"
 VERDE="\033[1;32m"
