@@ -58,7 +58,7 @@
 1200	florida.nxref.org	41400
 
 # 2140 Treehouse NXDN
-2140	nxdn.pa7lim.nl 41400
+2140	214nxdn.nxdn.es  41401
 
 # 2225  IT Tuscany
 2225	80.211.99.134	41400
@@ -459,58 +459,58 @@
 # 65209 VARG http://www.varg.club
 65209	3.215.215.169	41410
 
-2147 nxdn.pa7lim.nl 41400
+2147 214nxdn.nxdn.es  41401
 
-2140 nxdn.pa7lim.nl 41400
+2140 214nxdn.nxdn.es  41401
 
-2148 nxdn.pa7lim.nl 41400
+2148 214nxdn.nxdn.es  41401
 
-214 nxdn.pa7lim.nl 41400
+214 214nxdn.nxdn.es  41401
 
-21463 nxdn.pa7lim.nl 41400
+21463 214nxdn.nxdn.es  41401
 
-21466 nxdn.pa7lim.nl 41400
+21466 214nxdn.nxdn.es  41401
 
-37030 nxdn.pa7lim.nl 41400
+37030 214nxdn.nxdn.es  41401
 
-7144 nxdn.pa7lim.nl 41400
+7144 214nxdn.nxdn.es  41401
 
-7487 nxdn.pa7lim.nl 41400
+7487 214nxdn.nxdn.es  41401
 
-77 nxdn.pa7lim.nl 41400
+77 214nxdn.nxdn.es  41401
 
-111 nxdn.pa7lim.nl 41400
+111 214nxdn.nxdn.es  41401
 
-112 nxdn.pa7lim.nl 41400
+112 214nxdn.nxdn.es  41401
 
-21404 nxdn.pa7lim.nl 41400
+21404 214nxdn.nxdn.es  41401
 
-2141 nxdn.pa7lim.nl 41400
+2141 214nxdn.nxdn.es  41401
 
-21426 nxdn.pa7lim.nl 41400
+21426 214nxdn.nxdn.es  41401
 
-21428 nxdn.pa7lim.nl 41400
+21428 214nxdn.nxdn.es  41401
 
-2142 nxdn.pa7lim.nl 41400
+2142 214nxdn.nxdn.es  41401
 
-21437 nxdn.pa7lim.nl 41400
+21437 214nxdn.nxdn.es  41401
 
-2143 nxdn.pa7lim.nl 41400
+2143 214nxdn.nxdn.es  41401
 
-2144 nxdn.pa7lim.nl 41400
+2144 214nxdn.nxdn.es  41401
 
-2145 nxdn.pa7lim.nl 41400
+2145 214nxdn.nxdn.es  41401
 
-21480 nxdn.pa7lim.nl 41400
+21480 214nxdn.nxdn.es  41401
 
-2149 nxdn.pa7lim.nl 41400
+2149 214nxdn.nxdn.es  41401
 
-222 nxdn.pa7lim.nl 41400
+222 214nxdn.nxdn.es  41401
 
-23511 nxdn.pa7lim.nl 41400
+23511 214nxdn.nxdn.es  41401
 
-7227 nxdn.pa7lim.nl 41400
+7227 214nxdn.nxdn.es  41401
 
-91 nxdn.pa7lim.nl 41400
+91 214nxdn.nxdn.es  41401
 
-967 nxdn.pa7lim.nl 41400
+967 214nxdn.nxdn.es  41401
