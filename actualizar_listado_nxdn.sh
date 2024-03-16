@@ -19,10 +19,10 @@ echo "${VERDE}"
 echo "            ********************************************************"
                 
 cd $usuario/NXDNClients/NXDNGateway/
-rm -R private
-sudo mkdir private
+sudo rm -R private
+mkdir private
 cd $usuario/$SCRIPTS_version
-sudo cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway/private
+cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway/private
 cp NXDNHosts.txt $usuario/NXDNClients/NXDNGateway                            
 sleep 2
 clear  
