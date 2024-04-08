@@ -21,4 +21,4 @@ sudo systemctl enable auto_rx.service
 sudo systemctl start auto_rx.service
 
 sudo killall qt_radiosonde 
-~/A108/qt_radiosonde & exit
+~/SYSTEM/qt_radiosonde & exit
