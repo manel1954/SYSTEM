@@ -9,7 +9,7 @@
 #MARRON="\33[38;5;138m"
 #NEGRO="\33[0;30m"
 #clear
-#echo -n "${AMARILLO}"
+#echo -n "${AMARILLO}" 
 #echo "***********************************************************"
 #echo "         ESPERAR A QUE SE REORGANICEN LOS ICONOS          "
 #echo "***********************************************************"
