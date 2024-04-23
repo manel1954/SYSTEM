@@ -30,8 +30,8 @@ MARRON="\33[38;5;138m"
                         echo "***********************************************************************"
                         echo "***********************************************************************"
                         sleep 2  
-                        wget https://download.nomachine.com/download/8.11/Raspberry/nomachine_8.11.3_3_armhf.deb
-                        sudo dpkg -i nomachine_8.11.3_3_armhf.deb                                             
+                        wget https://download.nomachine.com/download/8.11/Raspberry/nomachine_8.11.3_3_arm64.deb
+                        sudo dpkg -i nomachine_8.11.3_3_arm64.deb                                             
                         clear
                         
                         echo "\v\v\v\v\v\v"
