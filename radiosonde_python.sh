@@ -10,9 +10,10 @@ cd radiosonde_auto_rx/auto_rx
 ./build.sh
 cp station.cfg.example station.cfg
 
-
+cd ~/radiosonde_auto_rx/auto_rx
 python3 -m venv venv;
 source venv/bin/activate;
+pip install --upgrade pip;
 pip install -r requirements.txt
 
 
@@ -21,4 +22,4 @@ sudo systemctl enable auto_rx.service
 sudo systemctl start auto_rx.service
 
 sudo killall qt_radiosonde 
-~/SYSTEM/qt_radiosonde & exit
+~/SYSTEM/qt/qt_radiosonde & exit
