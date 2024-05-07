@@ -49,11 +49,7 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
 
                         cp DMRIds.dat /home/pi/MMDVMHost/
 
-                        cp DMRIds.dat /home/pi/YSF2DMR/
-                        
-                        sudo rm /var/lib/mmdvm/DMRIds.dat
-
-                        #cp DMRIds.dat /var/lib/mmdvm/
+                        cp DMRIds.dat /home/pi/YSF2DMR/∫
 
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_ids
