@@ -50,6 +50,8 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
                         cp DMRIds.dat /home/pi/MMDVMHost/
 
                         cp DMRIds.dat /home/pi/YSF2DMR/
+                        
+                        sudo rm /var/lib/mmdvm/DMRIds.dat
 
                         sudo cp DMRIds.dat /var/lib/mmdvm/
 
