@@ -52,8 +52,8 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
                         cp DMRIds.dat /home/pi/YSF2DMR/
                         
                         sudo rm /var/lib/mmdvm/DMRIds.dat
-read a
-                        cp DMRIds.dat /var/lib/mmdvm/
+
+                        #cp DMRIds.dat /var/lib/mmdvm/
 
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_ids
