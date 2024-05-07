@@ -53,7 +53,7 @@ echo "                       **-ACTUALIZANDO IDS INDICATIVOS-**"
                         
                         sudo rm /var/lib/mmdvm/DMRIds.dat
 
-                        sudo cp DMRIds.dat /var/lib/mmdvm/
+                        #sudo cp DMRIds.dat /var/lib/mmdvm/
 
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_ids
