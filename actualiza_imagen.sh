@@ -12,12 +12,15 @@ NEGRO="\e[30m"
                         clear
                         echo -n "${NEGRO}"
                         cd /home/pi/SYSTEM   
-                        git pull                                                              
+                        git pull --force                                                              
                         mv qt_* /home/pi/SYSTEM/qt
-                        chmod 777 -R /home/pi/SYSTEM/
-                       
+                        chmod 777 -R /home/pi/SYSTEM/                       
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_imagen
+
+
+
+
 
 
 
