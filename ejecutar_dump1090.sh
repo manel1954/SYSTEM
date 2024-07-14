@@ -1,6 +1,6 @@
 #!/bin/bash
 sed -i "6c Exec=sh cerrar_dump1090.sh" /home/pi/Desktop/dump1090.desktop
-sed -i "7c Icon=/home/orangepi/SYSTEM/ICONO_AVION_ON.png" /home/pi/Desktop/dump1090.desktop
+sed -i "7c Icon=/home/pi/SYSTEM/ICONO_AVION_ON.png" /home/pi/Desktop/dump1090.desktop
 sed -i "10c Name[es_ES]=Cerrar Dump1090" /home/pi/Desktop/dump1090.desktop
 
 stick=$(awk "NR==40" /home/pi/status.ini)
