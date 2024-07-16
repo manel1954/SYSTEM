@@ -27,19 +27,21 @@ NEGRO="\e[30m"
                        # cd /home/pi/SYSTEM/qt/
                        # ./qt_actualizando_imagen
                         
-                                        
+                        mkdir /home/pi/Downloads/ORANGEPI
                         cd /home/pi/SYSTEM
-                        
+                        mv * /home/pi/Downloads/ORANGEPI
                         git pull --force
 
                         
 
-                        sudo rm -R /home/pi/ORANGEPI
+                        
 
-                        mkdir /home/pi/ORANGEPI
+                        s
                                                 
-                        cp -R /home/pi/SYSTEM/* /home/pi/ORANGEPI
-                        cp -R /home/pi/ORANGEPI/* /home/pi/SYSTEM
+                        cp -R /home/Downloads/ORANGEPI/* /home/pi/SYSTEM
+
+                        udo rm -R /home/pi/ORANGEPI
+                        
                         cd /home/pi/SYSTEM
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/                       
