@@ -36,12 +36,11 @@ NEGRO="\e[30m"
 
                         
 
-                        s
                                                 
                         cp -R /home/Downloads/ORANGEPI/* /home/pi/SYSTEM
 
                         udo rm -R /home/pi/ORANGEPI
-                        
+
                         cd /home/pi/SYSTEM
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/                       
