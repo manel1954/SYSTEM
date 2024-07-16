@@ -48,6 +48,7 @@ NEGRO="\e[30m"
                       
                         
                         #sudo rm -R /home/orangepi/qt
+                        #echo
 
 
 
