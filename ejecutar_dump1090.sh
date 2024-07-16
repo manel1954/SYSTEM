@@ -20,6 +20,6 @@ else
 xterm -geometry 69x29+22+48 -bg black -fg green -fa ‘verdana’ -fs 9x -T DUMP1090 -e sudo /home/pi/dump1090/dump1090 --device $index --net --interactive --net-ro-port $raw --net-bo-port $beast --ppm $ppm --net-http-port $http
 fi
 
-sed -i "6c Exec=sh ejecutar_dump10901.sh" /home/pi/Desktop/dump1090.desktop
+sed -i "6c Exec=sh ejecutar_dump1090.sh" /home/pi/Desktop/dump1090.desktop
 sed -i "7c Icon=/home/pi/SYSTEM/ICONO_AVION_OFF.png" /home/pi/Desktop/dump1090.desktop
 sed -i "10c Name[es_ES]=Abrir Dump1090" /home/pi/Desktop/dump1090.desktop
