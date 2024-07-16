@@ -1,6 +1,6 @@
 #!/bin/bash
 
-killall dump1090
+sudo killall dump1090
 
 SCRIPTS_version=$(awk "NR==1" /home/pi/.config/autostart/version)
 cd /home/pi/Desktop
