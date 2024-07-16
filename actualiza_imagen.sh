@@ -11,18 +11,8 @@ MARRON="\33[38;5;138m"
 NEGRO="\e[30m"
                         clear
                         echo -n "${NEGRO}"
-                        
-sudo rm -R /home/pi/SYSTEM
-git clone http://github.com/manel1954/SYSTEM
-
-
-
-
-
-
-
                         cd /home/pi/SYSTEM   
-                        #git pull --force                                                              
+                        git pull --force                                                              
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/                       
                         cd /home/pi/SYSTEM/qt/
