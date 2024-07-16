@@ -11,45 +11,18 @@ MARRON="\33[38;5;138m"
 NEGRO="\e[30m"
                         clear
                         echo -n "${NEGRO}"
-                        
-                        #cd /home/pi/SYSTEM   
-                       # git pull --force                                                              
-                        #mv qt_* /home/pi/SYSTEM/qt
-                        #chmod 777 -R /home/pi/SYSTEM/                       
-                       # cd /home/pi/SYSTEM/qt/
-                       # ./qt_actualizando_imagen
-
-
-                        #cd /home/pi/SYSTEM   
-                       # git pull --force                                                              
-                        #mv qt_* /home/pi/SYSTEM/qt
-                        #chmod 777 -R /home/pi/SYSTEM/                       
-                       # cd /home/pi/SYSTEM/qt/
-                       # ./qt_actualizando_imagen
-                        
-                        mkdir /home/pi/Downloads/ORANGEPI
-                        cd /home/pi/SYSTEM
-                        mv * /home/pi/Downloads/ORANGEPI
-                        git pull --force
-
-                        
-
-                        
-
-                                                
-                        cp -R /home/Downloads/ORANGEPI/* /home/pi/SYSTEM
-
-                        udo rm -R /home/pi/ORANGEPI
-
-                        cd /home/pi/SYSTEM
+                        cd /home/pi/SYSTEM   
+                        git pull --force                                                              
                         mv qt_* /home/pi/SYSTEM/qt
                         chmod 777 -R /home/pi/SYSTEM/                       
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_imagen
-                      
                         
-                        #sudo rm -R /home/orangepi/qt
-                        #echo
+
+
+
+
+
 
 
 
