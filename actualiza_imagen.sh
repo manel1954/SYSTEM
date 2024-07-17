@@ -12,7 +12,7 @@ NEGRO="\e[30m"
                         clear
                         echo -n "${NEGRO}"
                         cd /home/pi/SYSTEM   
-                        git pull --force                                                              
+                        git pull                                                         
                         mv qt_* /home/pi/SYSTEM/qt
                         #chmod 777 -R /home/pi/SYSTEM/                       
                         cd /home/pi/SYSTEM/qt/
