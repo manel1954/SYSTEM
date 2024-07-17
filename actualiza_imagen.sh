@@ -17,6 +17,7 @@ NEGRO="\e[30m"
                         #chmod 777 -R /home/pi/SYSTEM/                       
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_imagen
+                        
 
                         
 
