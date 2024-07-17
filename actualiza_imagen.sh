@@ -18,6 +18,7 @@ NEGRO="\e[30m"
                         cd /home/pi/SYSTEM/qt/
                         ./qt_actualizando_imagen
                         
+                        
 
 
 
